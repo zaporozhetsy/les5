@@ -1,0 +1,58 @@
+table {
+    width: 100%;
+    border: 5px solid black;
+     border-collapse: collapse;
+}
+
+td {
+    border: 7px solid black;
+
+}
+
+.oner-w {
+    background-color: white ;
+    width: 10px;
+    height: 12px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red { 
+    background-color: red;
+    height: 15px;
+    width: 15px;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.center {
+/*max-width: 600px;
+ margin: 0 auto; 
+ padding-left: 20px;
+ padding-right: 20px;*/
+ /*width: 530px;*/
+ height: 450px;
+ margin-inline: auto;
+ width: min(530px - 40px, 550px) ;
+}
+
+body {
+    font-family: Rboto, san-serif;
+}
+
+.reb {
+    background-color: red;
+}
+
+.oo {
+   width: 3px; 
+   height: 1px;
+}
